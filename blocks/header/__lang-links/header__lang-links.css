@@ -1,0 +1,9 @@
+.header__lang-links {
+  max-width: 82px;
+  min-height: 52px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}

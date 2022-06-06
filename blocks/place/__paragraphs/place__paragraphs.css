@@ -1,0 +1,26 @@
+.place__paragraphs {
+  max-width: 484px;
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1150px) {
+  .place__paragraphs {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .place__paragraphs {
+    max-width: 352px;
+ }
+}
+
+@media screen and (max-width: 544px) {
+  .place__paragraphs {
+    max-width: 288px;
+    padding: 0 16px;
+  }
+}
