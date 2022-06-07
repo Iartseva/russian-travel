@@ -10,16 +10,17 @@
   color: #ffffff;
   padding: 28px 0 24px;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1140px) {
   .page {
     min-width: 320px;
     max-width: 1024px;
 }
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 984px) {
   .page {
     min-width: 320px;
     max-width: 768px;
@@ -27,9 +28,9 @@
 }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 568px) {
   .page {
-    width: 320px;
-    padding: 0;
-  }
+    max-width: 320px;
+    padding-top: 16px;
+}
 }

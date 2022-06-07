@@ -11,7 +11,7 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 568px) {
   .cover__title {
     max-width: 288px;
     min-height: 70px;

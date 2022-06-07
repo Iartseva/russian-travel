@@ -1,6 +1,5 @@
 .intro__title {
   max-width: 700px;
-  min-height: 58px;
   margin: 0 auto 20px;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
@@ -11,16 +10,15 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 984px) {
   .intro__title {
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 568px) {
   .intro__title {
     max-width: 288px;
-    min-height: 70px;
     font-size: 32px;
     line-height: 35px;
 }
